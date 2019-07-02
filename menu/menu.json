@@ -1,0 +1,82 @@
+[
+    {
+        "product": "Café Americano",
+        "price": 5.00,
+        "menuType": "breakfast"
+    },
+    {
+        "product": "Café com leite",
+        "price": 7.00,
+        "menuType": "breakfast"
+    },
+    {
+        "product": "Sanduíche de presunto e queijo",
+        "price": 10.00,
+        "menuType": "breakfast"
+    },
+    {
+        "product": "Suco de fruta natural",
+        "price": 7.00,
+        "menuType": "breakfast"
+    },
+    {
+        "product": "Hambúrguer Simples Frango",
+        "price": 10.00,
+        "menuType": "lunch"
+    },
+    {
+        "product": "Hambúrguer Simples Carne Bovina",
+        "price": 10.00,
+        "menuType": "lunch"
+    },
+    {
+        "product": "Hambúrguer Simples Vegetariano",
+        "price": 10.00,
+        "menuType": "lunch"
+    },
+    {
+        "product": "Hambúrguer Duplo Frango",
+        "price": 15.00,
+        "menuType": "lunch"
+    },
+    {
+        "product": "Hambúrguer Duplo Carne Bovina",
+        "price": 15.00,
+        "menuType": "lunch"
+    },
+    {
+        "product": "Hambúrguer Duplo Vegetariano",
+        "price": 15.00,
+        "menuType": "lunch"
+    },
+    {
+        "product": "Batata frita",
+        "price": 5.00,
+        "menuType": "lunch"
+    },
+    {
+        "product": "Anéis de cebola",
+        "price": 5.00,
+        "menuType": "lunch"
+    },
+    {
+        "product": "Água 500ml",
+        "price": 5.00,
+        "menuType": "lunch"
+    },
+    {
+        "product": "Água 750ml",
+        "price": 7.00,
+        "menuType": "lunch"
+    },
+    {
+        "product": "Bebida gaseificada 500ml",
+        "price": 7.00,
+        "menuType": "lunch"
+    },
+    {
+        "product": "Bebida gaseificada 750ml",
+        "price": 10.00,
+        "menuType": "lunch"
+    }
+]
