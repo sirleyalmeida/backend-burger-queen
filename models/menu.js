@@ -11,10 +11,5 @@ module.exports = (sequelize, DataTypes) => {
       foreignKey: 'menuId'
     });
   };
-
-  // menu.map(elem => {
-  // Menu.create(elem)
-  // });
-
   return Menu;
 };
