@@ -1,5 +1,5 @@
 'use strict';
-const menu = require('../menu/menu')
+// const menu = require('../menu/menu')
 module.exports = (sequelize, DataTypes) => {
   const Menu = sequelize.define('Menu', {
     product: DataTypes.STRING,
