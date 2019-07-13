@@ -19,7 +19,6 @@
     "sequelize": "^5.8.12",
     "sequelize-cli": "^5.5.0",
     "sqlite3": "^4.0.9",
-    "swagger-ui-express": "^4.0.7",
-    "lodash": ">=4.17.13"
+    "swagger-ui-express": "^4.0.7"
   }
 }
