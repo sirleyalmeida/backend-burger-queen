@@ -20,5 +20,8 @@
     "sequelize-cli": "^5.5.0",
     "sqlite3": "^4.0.9",
     "swagger-ui-express": "^4.0.7"
+  },
+  "engines": {
+    "node": "10.15.3"
   }
 }
