@@ -2,7 +2,7 @@
   "name": "project",
   "version": "1.0.0",
   "engines": {
-    "node": "v10.15.3"
+    "node": "10.15.3"
   },
   "description": "API burger queen",
   "main": "index.js",
