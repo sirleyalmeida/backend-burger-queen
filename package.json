@@ -7,7 +7,7 @@
   "description": "API burger queen",
   "main": "index.js",
   "scripts": {
-    "start": ".node_modules/.bin/app index.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sirley Almeida",
