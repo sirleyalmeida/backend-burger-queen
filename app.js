@@ -12,11 +12,11 @@ app.listen(port, (req, resp) => {
 
 app.use('/', (req, resp) => {
     resp.send('Burger Queen API');
-})
+});
 
-app.use('/users', require('./routes/users'));
-app.use('/menu', require('./routes/menu'));
-app.use('/ordersmenu', require('./routes/ordersmenu'));
-app.use('/orders', require('./routes/orders'));
+// app.use('/users', require('./routes/users'));
+// app.use('/menu', require('./routes/menu'));
+// app.use('/ordersmenu', require('./routes/ordersmenu'));
+// app.use('/orders', require('./routes/orders'));
 
-db.sequelize.sync();
+// db.sequelize.sync();
