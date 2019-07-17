@@ -8,7 +8,7 @@
   "main": "app.js",
   "scripts": {
     "npm": "index.js",
-    "start": "node index.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sirley Almeida",
