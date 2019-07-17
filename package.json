@@ -5,7 +5,7 @@
     "node": "10.15.3"
   },
   "description": "API burger queen",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "npm": "index.js",
     "start": "node .node_modules/.bin/index.js start",
