@@ -10,6 +10,10 @@ app.listen(port, (req, resp) => {
     console.log('Burger Queen API')
 });
 
+app.use('/', (req, resp) => {
+    resp.send('Burger Queen API');
+})
+
 app.use('/users', require('./routes/users'));
 app.use('/menu', require('./routes/menu'));
 app.use('/ordersmenu', require('./routes/ordersmenu'));
