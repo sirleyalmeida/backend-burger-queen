@@ -7,7 +7,7 @@
   "description": "API burger queen",
   "main": "app.js",
   "scripts": {
-    "npm": "index.js",
+    "npm": "app.js",
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
