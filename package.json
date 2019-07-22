@@ -14,6 +14,8 @@
   "author": "Sirley Almeida",
   "license": "ISC",
   "dependencies": {
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
     "webpack-dev-server": "^3.7.2"
   },
   "repository": {

@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-// const db = require('./models/index');
+const db = require('./models/index');
 const port = process.env.PORT || '8080';
 
 app.use(express.json());
@@ -14,9 +14,9 @@ app.use('/', (req, resp) => {
     resp.send('Burger Queen API');
 });
 
-// app.use('/users', require('./routes/users'));
-// app.use('/menu', require('./routes/menu'));
-// app.use('/ordersmenu', require('./routes/ordersmenu'));
-// app.use('/orders', require('./routes/orders'));
+app.use('/users', require('./routes/users'));
+app.use('/menu', require('./routes/menu'));
+app.use('/ordersmenu', require('./routes/ordersmenu'));
+app.use('/orders', require('./routes/orders'));
 
-// db.sequelize.sync();
+db.sequelize.sync();
