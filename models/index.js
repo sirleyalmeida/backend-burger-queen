@@ -5,8 +5,8 @@ const path = require('path');
 const Sequelize = require('sequelize');
 const basename = path.basename(__filename);
 const db = {};
-// const sequelize = new Sequelize('sqlite://database.sqlite')
-const sequelize = new Sequelize('postgres://database.psql')
+const sequelize = new Sequelize('sqlite://database.sqlite')
+// const sequelize = new Sequelize('postgres://database.sqlite')
 
 
 fs
